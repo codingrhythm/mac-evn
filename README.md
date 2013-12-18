@@ -8,9 +8,9 @@ Mac Development Environment Configuration
 ### Install Virtual Env
 
 #### Install Homebrew
-'''
+```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-'''
+```
 
 ### Install MySQL Server
 
