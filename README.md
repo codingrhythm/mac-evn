@@ -3,12 +3,12 @@ mac-evn
 
 Mac Development Environment Configuration
 
-## Install XCode
+### Install XCode
 
-## Install Virtual Env
+### Install Virtual Env
 
-## Install MySQL Server
+### Install MySQL Server
 
-## Install MySQL GUI
+### Install MySQL GUI
 
-## Install Github App
+### Install Github App
