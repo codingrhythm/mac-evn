@@ -3,17 +3,40 @@ mac-evn
 
 Mac Development Environment Configuration
 
-### Install XCode
+## Install XCode
 
-### Install Virtual Env
+## Install MySQL Server
+
+## Install Virtual Env
 
 #### Install Homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
-### Install MySQL Server
+#### Install Python via Homebrew
+```
+brew install python --with-brewed-openssl
+```
 
-### Install MySQL GUI
+#### Install Virtualenv
+```
+pip install virtualenv
+```
 
-### Install Github App
+#### Edit or add bashrc for current user
+```
+vim ~/.bashrc
+```
+
+with content
+```
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+# cache pip-installed packages to avoid re-downloading
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+```
+
+## Install MySQL GUI
+
+## Install Github App
