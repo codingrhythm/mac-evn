@@ -106,6 +106,11 @@ requests
 humanize
 ```
 
+install packages
+```
+pip install -r pip_env.txt
+```
+
 ## Install MySQL GUI
 
 Download from http://dev.mysql.com/downloads/tools/workbench/
