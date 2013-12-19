@@ -1,7 +1,7 @@
 mac-evn
 =======
 
-Mac Development Environment Configuration
+Django Development Environment Configuration on Mac OSX
 
 ## Install XCode
 
