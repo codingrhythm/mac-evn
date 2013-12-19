@@ -120,3 +120,9 @@ pip install -r pip_packages
 Download from http://dev.mysql.com/downloads/tools/workbench/
 
 ## Install Github App
+
+## Install CocoaPods
+
+```
+sudo gem install cocoapods
+```
