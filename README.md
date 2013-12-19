@@ -44,7 +44,7 @@ vim ~/.bash_profile
 ```
 with following contents
 ```bash
-PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
+PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin/:$PATH"
 export PATH
 
 [[ -s ~/.bashrc ]] && source ~/.bashrc
@@ -92,6 +92,8 @@ activate it
 . bin/activate
 ```
 
+just type ```deactivate``` to deactivate current envrionment
+
 create file pip_packages with following content
 ```
 distribute
@@ -108,7 +110,7 @@ humanize
 
 install packages
 ```
-pip install -r pip_env.txt
+pip install -r pip_packages
 ```
 
 ## Install MySQL GUI
