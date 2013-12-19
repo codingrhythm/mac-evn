@@ -11,6 +11,8 @@ Download and install from http://dev.mysql.com/downloads/mysql/
 ## Install Virtual Env
 
 #### Install Homebrew
+You may need to keep XCode open while installing Homebrew to accept the agreement.
+
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
