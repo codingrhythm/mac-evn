@@ -139,6 +139,7 @@ pyOpenSSL
 boto
 requests
 humanize
+psycopg2
 ```
 
 install packages
