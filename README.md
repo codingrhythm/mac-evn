@@ -5,22 +5,38 @@ Django Development Environment Configuration on Mac OSX
 
 ## Install XCode
 
-## Install MySQL Server
-Download and install from http://dev.mysql.com/downloads/mysql/
-
-## Install Virtual Env
-
-#### Install Homebrew
+## Install Homebrew
 You may need to keep XCode open while installing Homebrew to accept the agreement.
 
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
-#### Install Python via Homebrew
+## Install Python via Homebrew
 ```
 brew install python --with-brewed-openssl
 ```
+
+
+## Install MySQL Server
+Download and install from http://dev.mysql.com/downloads/mysql/
+
+## Install PostgreSQL
+```
+brew install postgresql
+```
+
+To make it auto start on login, you have to run
+```
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+```
+
+Download and install PGAdmin from
+```
+http://www.pgadmin.org/
+```
+
+## Install Virtual Env
 
 #### Install Virtualenv
 ```
@@ -46,7 +62,7 @@ vim ~/.bash_profile
 ```
 with following contents
 ```bash
-PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin/:$PATH"
+PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin/:/usr/local/Cellar/postgresql/9.3.2/bin/:$PATH"
 export PATH
 
 [[ -s ~/.bashrc ]] && source ~/.bashrc
