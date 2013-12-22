@@ -36,6 +36,21 @@ Download and install PGAdmin from
 http://www.pgadmin.org/
 ```
 
+Start postgreSQL server
+```
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+```
+
+Stop postgreSQL server
+```
+pg_ctl -D /usr/local/var/postgres stop -s -m fast
+```
+
+Update login method in
+```
+vim /usr/local/var/postgres/pg_hba.conf
+```
+
 ## Install Virtual Env
 
 #### Install Virtualenv
