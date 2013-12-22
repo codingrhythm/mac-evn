@@ -51,6 +51,11 @@ Update login method in
 vim /usr/local/var/postgres/pg_hba.conf
 ```
 
+Create lib link, need to mkdir the /usr/local/opt/postgresql/lib/ folder first
+```
+ln /usr/local/Cellar/postgresql/9.3.2/lib/libpq.5.6.dylib /usr/local/opt/postgresql/lib/libpq.5.6.dylib
+```
+
 ## Install Virtual Env
 
 #### Install Virtualenv
