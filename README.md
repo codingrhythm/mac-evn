@@ -28,7 +28,7 @@ brew install postgresql
 
 To make it auto start on login, you have to run
 ```
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+ln -sfv /usr/local/Cellar/postgresql/9.3.2/*.plist ~/Library/LaunchAgents
 ```
 
 Download and install PGAdmin from
